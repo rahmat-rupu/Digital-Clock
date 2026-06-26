@@ -28,10 +28,13 @@ function updateClock() {
 
   const correct_hours = function () {
     const hour = now.getHours();
+    let hour_str;
+    // console.log(hour);
     if (hour > 12) {
       hoursEl.textContent = hour - 12;
       ampmEl.textContent = "PM";
     } else {
+      hoursEl.textContent = `0${hour}`;
       ampmEl.textContent = "AM";
     }
   };
@@ -56,4 +59,4 @@ function updateClock() {
 }
 
 setInterval(updateClock, 1000);
-updateClock(); // run once immediately
+updateClock();
