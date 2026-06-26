@@ -49,7 +49,6 @@ function updateClock() {
   };
   const formattedDate = `${months[now.getMonth()]} ${now.getDate()}, ${now.getFullYear()}`;
 
-  //   hoursEl.textContent = hour;
   minutesEl.textContent = minute;
   secondsEl.textContent = second;
   dayNameEl.textContent = day_name();

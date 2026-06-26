@@ -72,6 +72,8 @@ body {
   flex-direction: column; */
   text-align: center;
   margin-top: 50px;
+  position: relative;
+  top: -20px;
 }
 .date {
   font-size: 20px;
@@ -83,4 +85,10 @@ body {
 .day {
   color: #4c5380;
   font-size: 18px;
+}
+.creator {
+  text-align: center;
+  position: relative;
+  top: -15px;
+  color: #3d4474;
 }
