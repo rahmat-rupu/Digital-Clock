@@ -1,0 +1,86 @@
+.share-tech-mono {
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+.inter-tight {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a0a12;
+}
+
+.card {
+  background-color: #12121f;
+  height: 450px;
+  width: 550px;
+  color: bisque;
+  border: 2px solid #6366f1;
+  border-radius: 20px;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.clock {
+  position: relative;
+  left: 100px;
+  color: #e2e8f0;
+  font-size: 20px;
+}
+.pm {
+  position: relative;
+  top: 60px;
+  font-size: 20px;
+  background-color: #1a1a2e;
+  padding: 10px;
+  border: 1px solid #2d2d4e;
+  border-radius: 10px;
+  color: #818cf8;
+}
+.main {
+  display: flex;
+  font-size: 100px;
+  position: relative;
+  /* top: 40px; */
+  left: 70px;
+  color: #e2e8f0;
+  text-shadow: rgba(129, 140, 248, 0.25);
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: -10px;
+  left: 20px;
+  color: #3d4474;
+}
+.separator {
+  color: #3d4474;
+}
+.date_day {
+  /* display: flex;
+  justify-content: space-between;
+  flex-direction: column; */
+  text-align: center;
+  margin-top: 50px;
+}
+.date {
+  font-size: 20px;
+  position: relative;
+  top: -10px;
+  color: #a5b4fc;
+  left: 15px;
+}
+.day {
+  color: #4c5380;
+  font-size: 18px;
+}
